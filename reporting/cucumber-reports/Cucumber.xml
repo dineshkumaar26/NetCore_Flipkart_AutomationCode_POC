@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.605">
+<testcase classname="Netcore_Automation_Task" name="Automationcode|netcore" time="21.505">
+<system-out><![CDATA[Given Navigate to the flipkart..............................................passed
+When Search for iphone......................................................passed
+Then capture the details in CSV format......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

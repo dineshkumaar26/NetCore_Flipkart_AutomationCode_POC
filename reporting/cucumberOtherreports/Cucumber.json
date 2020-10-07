@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-07T16:23:09.870Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "support.StepDefinition.setUpDriver()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Automationcode|netcore",
+        "description": "",
+        "id": "netcore-automation-task;automationcode|netcore;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7166000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to the flipkart",
+            "match": {
+              "location": "support.StepDefinition.navigate_to_the_flipkart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13315000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search for iphone",
+            "match": {
+              "location": "support.StepDefinition.search_for_iphone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 965000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "capture the details in CSV format",
+            "match": {
+              "location": "support.StepDefinition.capture_the_details_in_CSV_format()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Netcore_Automation_Task",
+    "description": "",
+    "id": "netcore-automation-task",
+    "keyword": "Feature",
+    "uri": "file:feature/netcore.feature",
+    "tags": []
+  }
+]
